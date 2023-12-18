@@ -1,0 +1,35 @@
+package parctice;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class ReverseStr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      String str="My name is Chethan";
+//      String res="";
+      char []arr = str.toCharArray();
+      int left=0;
+      int right=arr.length-1;
+      while(left<right) {
+    	  char temp=arr[left];
+    	  arr[left]=arr[right];
+    	  arr[right]=temp;
+    	  left++;
+    	  right--;
+      }
+      System.out.println(arr);
+	  String st="raghava";
+	  char[] ar = st.toCharArray();
+	  Arrays.sort(ar);
+	  System.out.println(ar);
+//	  List<Integer> list = new ArrayList<>();
+	  
+        
+		
+
+}
+}

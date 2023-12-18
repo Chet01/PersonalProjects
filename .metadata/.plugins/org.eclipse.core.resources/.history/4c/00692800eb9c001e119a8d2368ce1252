@@ -1,0 +1,14 @@
+package practise;
+
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      int num=371;
+      int lastDigit=num%10;
+      int res=0;
+      System.out.println(lastDigit);
+      
+	}
+
+}
