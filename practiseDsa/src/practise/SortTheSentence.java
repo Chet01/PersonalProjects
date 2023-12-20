@@ -11,7 +11,7 @@ public class SortTheSentence {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s =  "is2 sentence4 This1 a3";
+		String s =  "is2 sentence4 This 1a3";
 		String[] str = s.split(" ");
 	       Map<Integer,String> map = new HashMap<>(); 
 	       for(String st:str){
@@ -27,6 +27,9 @@ public class SortTheSentence {
 				res += val + " ";
 			}
 			System.out.println(res);
+			if(s.contains("This")) {
+				System.out.println(true);
+			}
 	}
 
 }
