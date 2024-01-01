@@ -10,11 +10,13 @@ public class LongestCommonPrefix {
       Arrays.sort(strs);
       int idx=0;
       for(int i=0;i<strs.length;i++) {
-    	  if(strs[0].indexOf(i)==strs[1].indexOf(i)) {
-    		  idx++;
+    	  for(int j=1;j<strs[i].length();j++) {
+    		  if(strs[i].charAt(i)==strs[i].charAt(j)) {
+    			  idx++;
+    		  }
     	  }
       }
-      System.out.println(strs[0].substring(0, idx-1));
+      System.out.println(strs[0].substring(0, idx));
 	}
 
 }
