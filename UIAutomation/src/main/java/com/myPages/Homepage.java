@@ -31,6 +31,22 @@ public class Homepage extends BasePage{
 		return getPageTitle();
 	}
 	
+	public By getAdminBtn() {
+		return adminBtn;
+	}
+
+	public By getUsername() {
+		return username;
+	}
+
+	public By getUserRoleDrpdwn() {
+		return userRoleDrpdwn;
+	}
+
+	public By getSearchBtn() {
+		return searchBtn;
+	}
+
 	/**
 	 * Method to navigate to Admin Tab
 	 */
@@ -64,22 +80,6 @@ public class Homepage extends BasePage{
 		search.click();
 		Assert.assertTrue(true, "Searched the User Specified : "+userName+" and clicked Search Button!");
 		return getInstance(Homepage.class);
-	}
-
-	public By getAdminBtn() {
-		return adminBtn;
-	}
-
-	public By getUsername() {
-		return username;
-	}
-
-	public By getUserRoleDrpdwn() {
-		return userRoleDrpdwn;
-	}
-
-	public By getSearchBtn() {
-		return searchBtn;
 	}
 
 	public void verifyUserDisplayed(String userName,String xpath) {

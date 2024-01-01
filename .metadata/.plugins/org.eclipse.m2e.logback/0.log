@@ -3220,3 +3220,49 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact log4j:log4j:j
 2023-12-27 22:40:16,018 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-12-27 22:40:16,022 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-12-27 22:40:16,023 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-27 22:41:43,091 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-27 22:41:43,093 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-27 22:41:43,096 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-27 22:41:43,098 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-27 22:48:05,082 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-27 22:48:05,084 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-27 22:48:05,086 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-27 22:48:05,088 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-27 22:48:54,755 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@edcac98{STOPPING}[10.0.15,sto=0]
+2023-12-27 22:48:54,774 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@edff15c{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-12-27 22:48:54,842 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4582fbba{/help,null,STOPPED}
+2023-12-28 10:52:11,360 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-28 10:55:49,413 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-28 10:55:49,425 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-28 10:55:49,438 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-28 10:55:49,440 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-28 10:55:50,804 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-28 10:55:50,808 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-28 10:55:50,831 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-28 10:55:50,837 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-28 10:55:53,589 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.9+9
+2023-12-28 10:55:53,701 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-12-28 10:55:53,818 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1267c274{/help,null,AVAILABLE}
+2023-12-28 10:55:53,888 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@cb1115a{HTTP/1.1, (http/1.1)}{127.0.0.1:50153}
+2023-12-28 10:55:53,940 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@5d350c67{STARTING}[10.0.15,sto=0] @353272ms
+2023-12-28 10:55:59,621 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-28 10:55:59,624 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-28 10:55:59,629 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-28 10:55:59,633 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-28 15:31:23,879 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-28 15:31:23,881 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-28 15:31:23,886 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-28 15:31:23,889 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-28 16:19:12,061 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@5d350c67{STOPPING}[10.0.15,sto=0]
+2023-12-28 16:19:12,101 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@cb1115a{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-12-28 16:19:12,179 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1267c274{/help,null,STOPPED}
+2023-12-29 10:57:08,714 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-12-29 12:33:25,442 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.9+9
+2023-12-29 12:33:25,580 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-12-29 12:33:25,673 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@35049bf2{/help,null,AVAILABLE}
+2023-12-29 12:33:25,717 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@c9307d0{HTTP/1.1, (http/1.1)}{127.0.0.1:50659}
+2023-12-29 12:33:25,741 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@4c71fee{STARTING}[10.0.15,sto=0] @5866407ms
+2023-12-29 13:56:54,290 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@4c71fee{STOPPING}[10.0.15,sto=0]
+2023-12-29 13:56:54,297 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@c9307d0{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-12-29 13:56:54,309 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@35049bf2{/help,null,STOPPED}
+2023-12-29 14:30:16,796 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

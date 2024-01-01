@@ -4,9 +4,9 @@ public class PrimeNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num=9;
+		int num=2;
 		int counter=0;
-       for(int i=1;i<=10;i++) {
+       for(int i=1;i<=num;i++) {
     	   if(num%i==0) {
     		   counter++;
     	   }

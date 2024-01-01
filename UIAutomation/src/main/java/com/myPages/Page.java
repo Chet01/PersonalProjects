@@ -29,6 +29,8 @@ public abstract class Page {
     
     public abstract void minWait();
     
+    public abstract boolean verifyElementPresent(By locator);
+    
     public <TPage extends BasePage> TPage getInstance(Class<TPage> pageClass) {
     	try{
     	return pageClass.getDeclaredConstructor(WebDriver.class).newInstance(this.driver);

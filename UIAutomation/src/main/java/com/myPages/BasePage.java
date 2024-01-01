@@ -69,12 +69,14 @@ public class BasePage extends Page{
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 
+	
 	public void scrollToView(String xpath) {
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		WebElement ele = driver.findElement(By.xpath(xpath));
 		jse.executeScript("arguments[0].scrollIntoView();", ele);
 	}
 	
+	@Override
 	public boolean verifyElementPresent(By locator) {
 		boolean res= driver.findElement(locator).isDisplayed();
 		try {
