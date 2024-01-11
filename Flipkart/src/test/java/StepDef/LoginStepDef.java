@@ -19,7 +19,7 @@ public class LoginStepDef {
 
 	@Given("user is already on HomePage")
 	public void user_is_already_on_home_page() {
-		System.setProperty("webdriver.chrome.driver", "D:/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Moolya/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();

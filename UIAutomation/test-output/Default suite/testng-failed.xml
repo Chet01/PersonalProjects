@@ -6,6 +6,7 @@
       <class name="MyTests.HomePageTest">
         <methods>
           <include name="userSearch"/>
+          <include name="storeDropDownQualificationsValues"/>
           <include name="setUp"/>
           <include name="closeBrowser"/>
         </methods>
