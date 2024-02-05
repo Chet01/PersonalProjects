@@ -5,8 +5,7 @@
     <classes>
       <class name="trelloApiAutomation.ApiRequests">
         <methods>
-          <include name="putRequest"/>
-          <include name="getRequest"/>
+          <include name="deleteRequest"/>
         </methods>
       </class> <!-- trelloApiAutomation.ApiRequests -->
     </classes>

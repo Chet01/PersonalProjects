@@ -11,10 +11,13 @@ import junit.framework.Assert;
 import io.restassured.RestAssured;
 import io.restassured.RestAssured.*;
 import io.restassured.http.ContentType;
+import io.restassured.http.Headers;
 import io.restassured.path.json.JsonPath;
 
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
+
+import java.util.List;
 public class ApiRequests {
 	
 	 public static String baseurl = "https://api.trello.com";
@@ -25,7 +28,7 @@ public class ApiRequests {
 		Response response  = given()
 		.header("Content-Type","application/json")
 		.contentType(ContentType.JSON)
-		.queryParam("name", "Chethan Kumar")
+		.queryParam("name", "Chethan Kumar N")
 		.queryParam("key", "3019e5237917af239b2fe2384fe877ce")
 		.queryParam("token", "ATTAe0408255feb4f09c4f78bd004eae05d75a003b36df73ef8e8a4e836919797d01A067749A")
 		.when()
@@ -51,6 +54,9 @@ public class ApiRequests {
 		.when()
 		.get("https://api.trello.com/1/boards/"+id)
 		.then().statusCode(200).extract().response();
+		
+		Headers headers = response.getHeaders();
+		System.out.println(headers);
 		
 	}
 	

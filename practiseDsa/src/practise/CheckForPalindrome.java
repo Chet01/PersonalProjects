@@ -33,8 +33,6 @@ public class CheckForPalindrome {
 		}
 		else {
 			System.out.println("Not a palindrome");
-		}
-		
-
+		}		
 }
 }
