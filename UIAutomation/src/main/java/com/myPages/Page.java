@@ -1,5 +1,7 @@
 package com.myPages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +15,7 @@ public abstract class Page {
     public Page(WebDriver driver) {
     	this.driver = driver;
     	//explicit wait
-    	this.wait = new WebDriverWait(this.driver,15);
+//    	this.wait = new WebDriverWait(driver,10);
     }
     
     //abstract methods

@@ -32,11 +32,13 @@ public class ApiRequests {
 		.queryParam("key", "3019e5237917af239b2fe2384fe877ce")
 		.queryParam("token", "ATTAe0408255feb4f09c4f78bd004eae05d75a003b36df73ef8e8a4e836919797d01A067749A")
 		.when()
-		.post(baseurl+"/1/boards/").then().statusCode(200).extract().response();
+		.post(baseurl+"/1/boards/").then().log().all().statusCode(200).extract().response();
 		 System.out.println(response);
 		 JsonPath req = new JsonPath(response.asString());
 		 id = req.get("id");
-		 System.out.println(id);
+		 String pl = req.get("prefs.permissionLevel");
+		 System.out.println("id is "+id);
+		 Assert.assertEquals(pl, "private");
 		 
 		 //to delete the above board 
 		 //we need this id : 658026dda9034b6c3cc3bca9 generated
@@ -56,7 +58,7 @@ public class ApiRequests {
 		.then().statusCode(200).extract().response();
 		
 		Headers headers = response.getHeaders();
-		System.out.println(headers);
+//		System.out.println(headers);
 		
 	}
 	
@@ -70,11 +72,11 @@ public class ApiRequests {
 		.queryParam("token", "ATTAe0408255feb4f09c4f78bd004eae05d75a003b36df73ef8e8a4e836919797d01A067749A")
 		.when()
 		.put("https://api.trello.com/1/boards/"+id)
-		.then().statusCode(200).extract().response();
+		.then().log().all().statusCode(200).extract().response();
 		
 	}
 	
-	@Test(priority=3)
+//	@Test(priority=3)
 	public void deleteRequest() {
 		Response response = given()
 		.header("Content-Type","application/json")
